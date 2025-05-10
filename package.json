@@ -1,0 +1,16 @@
+{
+  "name": "@na-trium-144/crdl",
+  "version": "0.0.1",
+  "description": "Download any version of chromium",
+  "main": "index.mjs",
+  "author": "na-trium-144",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/na-trium-144/chromium-downloader.git"
+  },
+  "license": "ISC",
+  "bin": "index.mjs",
+  "dependencies": {
+    "unzipper": "^0.12.3"
+  }
+}
