@@ -100,6 +100,9 @@ if (existsSync(`${baseDir}/${dirName}`)) {
     await unzipper.Open.file(`${baseDir}/${dirName}.zip`)
   ).extract({ path: `${baseDir}/${dirName}` });
   unlinkSync(`${baseDir}/${dirName}.zip`);
+  console.log(
+    `Successfully downloaded chromium ${process.argv[2]}. Now launching...`,
+  );
 }
 
 function chmodRecursive(dir) {
