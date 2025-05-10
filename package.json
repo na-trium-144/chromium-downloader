@@ -1,6 +1,6 @@
 {
   "name": "@na-trium-144/crdl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Download any version of chromium",
   "main": "index.mjs",
   "author": "na-trium-144",
