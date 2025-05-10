@@ -127,6 +127,7 @@ switch (process.platform) {
     });
     break;
   case "darwin":
+    chmodRecursive(`${baseDir}/${dirName}/chrome-mac/`);
     spawn("open", [`${baseDir}/${dirName}/chrome-mac/Chromium.app`], {
       detached: true,
     });
